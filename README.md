@@ -1,5 +1,8 @@
 ## Python documentation
 
+Example documentation pages: https://claraj.github.io/sphinx-docs-demo/
+
+
 1. Write docstrings in your classes, functions and methods
 
 Use triple-quoted strings at the start of the thing you are documenting. Follow the Sphinx style, 
@@ -17,8 +20,10 @@ https://www.sphinx-doc.org/en/master/index.html
 
 3. Make docs folder and navigate to it
 
+```
 mkdir docs
 cd docs 
+```
 
 3. Run the quickstart to set up documentation config files
 
@@ -26,11 +31,11 @@ from the docs folder
 
 `sphinx-quickstart`
 
-Separate source and build directories: No
-Project name: Enter your project's name
-Author name(s): your name or your team's names
-Project release: press enter here
-Language: press enter for English
+Separate source and build directories: No  
+Project name: Enter your project's name  
+Author name(s): your name or your team's names  
+Project release: press enter here  
+Language: press enter for English  
 
 
 4. Import your module(s) into conf.py
@@ -38,6 +43,7 @@ Language: press enter for English
 Inside the docs folder, there's a file called conf.py.
 
 uncomment the first 3 lines, modify the 3rd line (.. not .) 
+
 ```
 import os
 import sys
@@ -81,7 +87,7 @@ collection\_utilities module
    :show-inheritance:
 ```
 
-Change to - note the package name 
+Change to something like the following, note the package name on the ..automodule:: line, but use your own package name  
 
 ```
 collection\_utilities module
@@ -124,10 +130,16 @@ Indices and tables
 Documentation will be in the form of HTML pages, in _build/html.
 
 
-10. As you work on project, run 
+10. Updating documentation
+
+As you work on project, or modify or update your docstrings,
+
+run 
 
 `make html`
 
 to update your documentation.
 
-If you add new files, repeat the sphinx-autodoc command (steps 6 and 7) to generate documentation for those. 
+If you add new files, repeat the `sphinx-autodoc` command (steps 6 and 7) to generate documentation for those. 
+
+
