@@ -1,8 +1,5 @@
 ## Python documentation
 
-Example documentation pages: https://claraj.github.io/sphinx-docs-demo/
-
-
 1. Write docstrings in your classes, functions and methods
 
 Use triple-quoted strings at the start of the thing you are documenting. Follow the Sphinx style, 
