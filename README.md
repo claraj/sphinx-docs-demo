@@ -124,8 +124,8 @@ Indices and tables
 
 `make html`
 
-Documentation will be in the form of HTML pages, in _build/html.
-
+Documentation will be in the form of HTML pages, in _build/html 
+You can open these in a web browser.
 
 10. Updating documentation
 
